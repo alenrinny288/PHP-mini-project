@@ -1,0 +1,199 @@
+body{
+    background-image: url('images/bgimg2.png');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#topbar{
+    height: 149px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    display: flex; 
+    margin-left: -10px;  
+    margin-top: -20px; 
+}
+#name{
+    height: 149px;
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 100px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 100px;
+}
+#headingtext{
+  font-size: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style:italic;
+}
+#flexend{
+    color: white;
+    height: 149px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+/*
+#home{
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#home:hover{
+  color: black;
+}
+#chat{
+  align-self: center;
+  height: fit-content;
+  width: fit-content;
+  font-size: x-large;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#chat:hover{
+  color:black;
+}
+#settings{
+  align-self: center;
+  height: fit-content;
+  width: fit-content;
+  font-size: x-large;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#settings:hover{
+  color: black;
+} */
+
+#contact{
+  align-self: center;
+  height: fit-content;
+  width: fit-content;
+  font-size: x-large;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#contact:hover{
+  color: black;
+}
+#underline1{
+  background-color: white;
+  height: 2px;
+  width: 98%;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+#adminownerheading{
+  font-size: 50px;
+  color: white;  
+  margin-left: 80px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-family: cursive;
+  text-shadow: 5px 3px 3px rgb(62, 10, 102);
+}
+#developer{
+  font-size: 50px;
+  color: white;  
+  margin-left: 80px;
+  margin-right: 200px;
+  margin-top: 100px;
+  font-family: cursive;
+  text-shadow: 5px 3px 3px rgb(62, 10, 102);
+
+}
+#namemobno{
+  color: white;
+  font-size: 30px;
+  margin-left: 80px;
+  margin-right: 200px;
+}
+#p1,#p2,#p3{
+  color: white;
+  font-size: 30px;
+  margin-left: 80px;
+  margin-right: 200px;
+}
+
+#social{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  position: absolute;
+  top: 70%;
+  margin-left: -10px;
+  
+}
+
+#facebook{
+  padding: 5px 10px 5px 10px;
+  height: 50px;
+  width: 50px;
+  transition: 0.5s;
+  background-color:white;
+}
+#facebook:hover{
+  padding-left: 50px;
+}
+
+
+#instagram{
+  padding: 5px 10px 5px 10px;
+  height: 50px;
+  width: 50px;
+  transition: 0.5s;
+  background-color: white; 
+}
+#instagram:hover{
+  padding-left: 50px;
+}
+#youtube{
+  padding: 5px 10px 5px 10px;
+  height: 50px;
+  width: 50px;
+  transition: 0.5s;
+  background-color:white;
+}
+#youtube:hover{
+  padding-left: 50px;
+}
+
+#twitter{
+  padding: 5px 10px 5px 10px;
+  height: 50px;
+  width: 50px;
+  transition: 0.5s;
+  background-color: white;
+}
+#twitter:hover{
+  padding-left: 50px;
+}
+
+
+  
+  
+  /*animation-name:instanim;
+  animation-duration: 2s;
+  animation-iteration-count: 100; */ 
+
+

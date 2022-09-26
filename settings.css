@@ -1,0 +1,105 @@
+body{
+    background-image: url('images/bgimg2.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+}
+
+#topbar{
+    height: 149px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    display: flex; 
+    margin-left: -10px;  
+    margin-top: -20px; 
+}
+#name{
+    height: 149px;
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 100px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 100px;
+}
+#headingtext{
+  font-size: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style:italic;
+}
+#flexend{
+    color: white;
+    height: 149px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+}
+/*
+#home{
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#home:hover{
+  color: black;
+}
+#chat{
+  align-self: center;
+  height: fit-content;
+  width: fit-content;
+  font-size: x-large;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#chat:hover{
+  color: black;
+} */
+#settings{
+  align-self: center;
+  height: fit-content;
+  width: fit-content;
+  font-size: x-large;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#settings:hover{
+  color: black;
+}
+/*
+#contact{
+  align-self: center;
+  height: fit-content;
+  width: fit-content;
+  font-size: x-large;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#contact:hover{
+  color: black;
+}  */
+#underline1{
+  background-color: white;
+  height: 2px;
+  width: 98%;
+  margin-left: 10px;
+  margin-top: -10px;
+}

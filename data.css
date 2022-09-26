@@ -1,0 +1,34 @@
+body{
+    background-image: url('images/bgimg2.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+}
+
+#topbar{
+    height: 149px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    display: flex; 
+    margin-left: -10px;  
+    margin-top: -20px; 
+}
+
+#homebtn{
+    height: 10px;
+    width: 10px; 
+    background-image: url('icons/facebook.png');
+   
+}
+
+
+
+
+#underline1{
+  background-color: white;
+  height: 2px;
+  width: 98%;
+  margin-left: 10px;
+  margin-top: -10px;
+}

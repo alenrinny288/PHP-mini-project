@@ -1,0 +1,178 @@
+body{
+    background-image: url('images/bgimg2.png');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#topbar{
+    height: 149px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+
+#name{
+    height: 149px;
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 100px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 100px;
+}
+
+#headingtext{
+    font-size:  50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#flexend{
+    color: white;
+    height: 149px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+#home{
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#home:hover{
+    color: black;
+}
+/*
+#chat{
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#chat:hover{
+    color: black;
+   }
+
+   #settings{
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #settings:hover{
+  color: black;
+  }
+  
+  #contact{
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #contact:hover{
+    color: white;
+  }*/
+
+
+#underline1{
+    background-color: white;
+    height: 2px;
+    width: 98%;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+
+
+  #bodywrap{
+    width: 100%;
+  }
+  
+  #descriptionheading{
+    color: white;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 80px ;
+    font-family: cursive;
+    text-shadow: 5px 3px 3px rgb(62, 10, 102);
+  }
+#p1{
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 200px;
+}
+#gotochatbtn{
+  margin-left: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+  font-size: x-large;
+  background-color: rgb(108, 1, 190);
+  height: 50px;
+  width: 140px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 3px black;
+  opacity: 75%;
+}
+#gotochatbtn:hover{
+  box-shadow: 3px 5px 3px black;
+  color: white;
+  background-color: rgb(62, 10, 102);
+}
+#p2{
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+#gotocontactbtn{
+  margin-left: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+  font-size: x-large;
+  background-color: rgb(108, 1, 190);
+  height: 50px;
+  width: 170px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 3px black;
+  opacity: 75%;
+}
+#gotocontactbtn:hover{
+  box-shadow: 3px 5px 3px black;
+  color: white;
+  background-color: rgb(62, 10, 102);
+}
+
+
